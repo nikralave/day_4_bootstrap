@@ -1,0 +1,25 @@
+.cliffs {
+    filter: grayscale(100%);
+}
+
+.lake {
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+}
+
+
+.lake:hover {
+    filter: opacity(0.5);
+  
+}
+
+
+.waterfall {
+    filter: sepia(60%);
+}
+
+.bunny {
+    filter:contrast(50%);
+    filter:sepia(90%);
+}
+
